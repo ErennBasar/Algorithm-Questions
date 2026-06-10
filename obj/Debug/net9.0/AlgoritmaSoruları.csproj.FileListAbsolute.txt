@@ -1,0 +1,14 @@
+/Users/erenbasar/RiderProjects/AlgoritmaSoruları/bin/Debug/net9.0/AlgoritmaSoruları
+/Users/erenbasar/RiderProjects/AlgoritmaSoruları/bin/Debug/net9.0/AlgoritmaSoruları.deps.json
+/Users/erenbasar/RiderProjects/AlgoritmaSoruları/bin/Debug/net9.0/AlgoritmaSoruları.runtimeconfig.json
+/Users/erenbasar/RiderProjects/AlgoritmaSoruları/bin/Debug/net9.0/AlgoritmaSoruları.dll
+/Users/erenbasar/RiderProjects/AlgoritmaSoruları/bin/Debug/net9.0/AlgoritmaSoruları.pdb
+/Users/erenbasar/RiderProjects/AlgoritmaSoruları/obj/Debug/net9.0/AlgoritmaSoruları.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erenbasar/RiderProjects/AlgoritmaSoruları/obj/Debug/net9.0/AlgoritmaSoruları.AssemblyInfoInputs.cache
+/Users/erenbasar/RiderProjects/AlgoritmaSoruları/obj/Debug/net9.0/AlgoritmaSoruları.AssemblyInfo.cs
+/Users/erenbasar/RiderProjects/AlgoritmaSoruları/obj/Debug/net9.0/AlgoritmaSoruları.csproj.CoreCompileInputs.cache
+/Users/erenbasar/RiderProjects/AlgoritmaSoruları/obj/Debug/net9.0/AlgoritmaSoruları.dll
+/Users/erenbasar/RiderProjects/AlgoritmaSoruları/obj/Debug/net9.0/refint/AlgoritmaSoruları.dll
+/Users/erenbasar/RiderProjects/AlgoritmaSoruları/obj/Debug/net9.0/AlgoritmaSoruları.pdb
+/Users/erenbasar/RiderProjects/AlgoritmaSoruları/obj/Debug/net9.0/AlgoritmaSoruları.genruntimeconfig.cache
+/Users/erenbasar/RiderProjects/AlgoritmaSoruları/obj/Debug/net9.0/ref/AlgoritmaSoruları.dll

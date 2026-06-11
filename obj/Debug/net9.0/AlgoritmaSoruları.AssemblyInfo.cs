@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlgoritmaSoruları")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6716c816f4fede12b7973ef33b2a5141f7ac833c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e9a8bde49fe849f4d22edee93ffccb7cc5b85f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlgoritmaSoruları")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlgoritmaSoruları")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

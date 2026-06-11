@@ -19,4 +19,21 @@ public class TwoSum
 
         return new int[]{};
     }
+
+    public static int[] TwoSumWithHashTable(int[] nums, int target)
+    {
+        Dictionary<int, int> dictionary = new Dictionary<int, int>();
+        for (int i = 0; i < nums.Length; i++)
+        {
+            int n = target - nums[i];
+            if (dictionary.ContainsKey(n))
+            {
+                return new int[] { dictionary[n], i };
+            }
+
+            dictionary[nums[i]] = i; // Dictionary'ye yazdirma islemi
+        }
+
+        return new int[] { };
+    }
 }

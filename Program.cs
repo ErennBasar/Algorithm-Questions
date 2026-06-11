@@ -20,5 +20,8 @@ public class Program
 
         int[] result = TwoSum.TwoSumWithLoop(input, input2);
         Console.WriteLine($"[{string.Join(",", result)}]");
+       
+        int[] result2 = TwoSum.TwoSumWithHashTable(input, input2);
+        Console.WriteLine($"[{string.Join(",", result2)}]");
     }
 }

@@ -24,7 +24,9 @@ public class Program
         // int[] result2 = TwoSum.TwoSumWithHashTable(input, input2);
         // Console.WriteLine($"[{string.Join(",", result2)}]");
 
-        string s = "wwkew";
+        string s = "abcabcbb"; //3 
+        //string s = "bbbbb"; // 1
+        //string s = ""pwwkew""; // 3
         int result = LongestSubstringWithoutRepeatingCharacters.LengthOfLongestSubstring(s);
         Console.WriteLine(result);
     }

@@ -9,10 +9,16 @@ public class Program
 
         //Console.WriteLine(LongestAlternatingParitySubarray.LongestAlternatingParitySubarrayAsJson(input));
 
-        int[] input1 = {1,2};
-        int[] input2 = {3,4};
+        // int[] input1 = {1,2};
+        // int[] input2 = {3,4};
+        //
+        // double result = MedianOfTwoSortedArrays.FindMedianSortedArrays(input1, input2);
+        // Console.WriteLine(string.Join(", ", result));
 
-        double result = MedianOfTwoSortedArrays.FindMedianSortedArrays(input1, input2);
-        Console.WriteLine(string.Join(", ", result));
+        int[] input = { 2, 11, 7, 15 };
+        int input2 = 9;
+
+        int[] result = TwoSum.TwoSumWithLoop(input, input2);
+        Console.WriteLine($"[{string.Join(",", result)}]");
     }
 }

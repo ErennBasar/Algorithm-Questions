@@ -12,3 +12,4 @@
 /Users/erenbasar/RiderProjects/AlgoritmaSoruları/obj/Debug/net9.0/AlgoritmaSoruları.pdb
 /Users/erenbasar/RiderProjects/AlgoritmaSoruları/obj/Debug/net9.0/AlgoritmaSoruları.genruntimeconfig.cache
 /Users/erenbasar/RiderProjects/AlgoritmaSoruları/obj/Debug/net9.0/ref/AlgoritmaSoruları.dll
+/Users/erenbasar/RiderProjects/AlgoritmaSoruları/obj/Debug/net9.0/AlgoritmaSoruları.sourcelink.json

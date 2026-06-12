@@ -33,10 +33,15 @@ public class Program
         // string secret = "1807";
         // string guess = "7810"; //1A3B
    
-        string secret = "1123";
-        string guess = "0111"; //1A1B
+        // string secret = "1123";
+        // string guess = "0111"; //1A1B
+        //
+        // string result = BullsAndCows.GetHint(secret, guess);
+        // Console.WriteLine(result);
 
-        string result = BullsAndCows.GetHint(secret, guess);
+        int uglyNum = 1407; //536870912 Geçen Süre: 0 ms
+        int result = UglyNumberII.NthUglyNumber(uglyNum);
         Console.WriteLine(result);
+        
     }
 }

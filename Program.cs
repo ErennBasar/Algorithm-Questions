@@ -39,9 +39,15 @@ public class Program
         // string result = BullsAndCows.GetHint(secret, guess);
         // Console.WriteLine(result);
 
-        int uglyNum = 1407; //536870912 Geçen Süre: 0 ms
-        int result = UglyNumberII.NthUglyNumber(uglyNum);
-        Console.WriteLine(result);
+        // int uglyNum = 1407; //536870912 Geçen Süre: 0 ms
+        // int result = UglyNumberII.NthUglyNumber(uglyNum);
+        // Console.WriteLine(result);
+
+        //int isHappy = 2; //false
+        int isHappy = 19; //true
         
+        bool result = HappyNumber.IsHappy(isHappy);
+        Console.WriteLine(result);
+
     }
 }

@@ -50,5 +50,26 @@ public class MajorityElement
         }
 
         return majorityElement;
+        
+        /* 
+         *
+         * int aday = 0;
+           int sayac = 0;
+
+           foreach (int sayi in nums) {
+               
+               if (sayac == 0) {
+                   aday = sayi;
+               }
+
+               if (sayi == aday) {
+                   sayac++;
+               } else {
+                   sayac--;
+               }
+           }
+
+           return aday;
+         */
     }
 }

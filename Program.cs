@@ -1,3 +1,5 @@
+using System.Globalization;
+
 namespace AlgoritmaSoruları;
 
 public class Program
@@ -43,25 +45,28 @@ public class Program
         // int result = UglyNumberII.NthUglyNumber(uglyNum);
         // Console.WriteLine(result);
 
-        //int isHappy = 2; //false
+        // int isHappy = 2; //false
         // int isHappy = 19; //true
         //
         // bool result = HappyNumber.IsHappy(isHappy);
         // Console.WriteLine(result);
 
-        ListNode dugum1 = new ListNode(3);
-        ListNode dugum2 = new ListNode(2);
-        ListNode dugum3 = new ListNode(0);
-        ListNode dugum4 = new ListNode(-4);
-        
-        dugum1.next = dugum2; 
-        dugum2.next = dugum3; 
-        dugum3.next = dugum4; 
-        dugum4.next = dugum2;
-        
-        bool result = LinkedListCycle.HasCycle(dugum1);
-        Console.WriteLine($"Listede kısır döngü var mı? : {result}");
+        // ListNode dugum1 = new ListNode(3);
+        // ListNode dugum2 = new ListNode(2);
+        // ListNode dugum3 = new ListNode(0);
+        // ListNode dugum4 = new ListNode(-4);
+        //
+        // dugum1.next = dugum2; 
+        // dugum2.next = dugum3; 
+        // dugum3.next = dugum4; 
+        // dugum4.next = dugum2;
+        //
+        // bool result = LinkedListCycle.HasCycle(dugum1);
+        // Console.WriteLine($"Listede kısır döngü var mı? : {result}");
 
+        int[] nums = { 5,2,5,1,5,7,5 };
+        int result = MajorityElement.MajorityElement_(nums);
+        Console.WriteLine(result);
 
     }
 }

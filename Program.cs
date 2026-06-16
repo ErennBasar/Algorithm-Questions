@@ -64,9 +64,9 @@ public class Program
         // bool result = LinkedListCycle.HasCycle(dugum1);
         // Console.WriteLine($"Listede kısır döngü var mı? : {result}");
 
-        int[] nums = { 5,2,5,1,5,7,5 };
-        int result = MajorityElement.MajorityElement_(nums);
-        Console.WriteLine(result);
+        // int[] nums = { 5,2,5,1,5,7,5 };
+        // int result = MajorityElement.MajorityElement_(nums);
+        // Console.WriteLine(result);
 
     }
 }

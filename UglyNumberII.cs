@@ -11,6 +11,8 @@ namespace AlgoritmaSoruları;
    Output: 12
    Explanation: [1, 2, 3, 4, 5, 6, 8, 9, 10, 12] is the sequence of the first 10 ugly numbers.
  
+ * 3 Pointer Algoritması
+ * 
  * Her pointer icin sıradaki adayını hesapla
  * Adaylardan en küçük olanı bul ve diziye ekle
  * Kazanan işaretçiyi (veya işaretçileri) bir adım ileri taşı

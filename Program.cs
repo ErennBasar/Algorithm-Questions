@@ -68,5 +68,10 @@ public class Program
         // int result = MajorityElement.MajorityElement_(nums);
         // Console.WriteLine(result);
 
+        string t = "b23";
+        string s = "s11";
+        bool result = IsomorphicStrings.IsIsomorphic(s,t);
+        Console.WriteLine(result);
+
     }
 }

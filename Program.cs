@@ -68,9 +68,13 @@ public class Program
         // int result = MajorityElement.MajorityElement_(nums);
         // Console.WriteLine(result);
 
-        string t = "b23";
-        string s = "s11";
-        bool result = IsomorphicStrings.IsIsomorphic(s,t);
+        // string t = "b23";
+        // string s = "s11";
+        // bool result = IsomorphicStrings.IsIsomorphic(s,t);
+        // Console.WriteLine(result);
+
+        int[] nums = { 1, 2, 3, 1 };
+        bool result = ContainsDuplicate.ContainsDuplicate_(nums);
         Console.WriteLine(result);
 
     }

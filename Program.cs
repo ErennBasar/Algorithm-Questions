@@ -73,9 +73,13 @@ public class Program
         // bool result = IsomorphicStrings.IsIsomorphic(s,t);
         // Console.WriteLine(result);
 
-        int[] nums = { 1, 2, 3, 1 };
-        bool result = ContainsDuplicate.ContainsDuplicate_(nums);
-        Console.WriteLine(result);
+        // int[] nums = { 1, 2, 3, 1 };
+        // bool result = ContainsDuplicate.ContainsDuplicate_(nums);
+        // Console.WriteLine(result);
 
+        int[] nums = { 1,0,1,1 };
+        int k = 1;
+        bool result = ContainsDuplicateII.ContainsNearbyDuplicate(nums,k);
+        Console.WriteLine(result);
     }
 }

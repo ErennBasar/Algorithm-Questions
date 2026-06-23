@@ -77,9 +77,15 @@ public class Program
         // bool result = ContainsDuplicate.ContainsDuplicate_(nums);
         // Console.WriteLine(result);
 
-        int[] nums = { 1,0,1,1 };
-        int k = 1;
-        bool result = ContainsDuplicateII.ContainsNearbyDuplicate(nums,k);
-        Console.WriteLine(result);
+        // int[] nums = { 1,0,1,1 };
+        // int k = 1;
+        // bool result = ContainsDuplicateII.ContainsNearbyDuplicate(nums,k);
+        // Console.WriteLine(result);
+        
+        int[] nums = { 2,1,1,3,1,4,5,6};
+        IList<int> result = MajorityElementII.MajorityElement(nums);
+        
+        Console.WriteLine($"n/3 Barajını Geçenler: [{string.Join(", ", result)}]");
+
     }
 }

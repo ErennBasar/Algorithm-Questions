@@ -86,9 +86,13 @@ public class Program
         // IList<int> result = MajorityElementII.MajorityElement(nums);
         // Console.WriteLine($"n/3 Barajını Geçenler: [{string.Join(", ", result)}]");
 
-        string t = "rat";
-        string s = "car";
-        bool result = ValidAnagram.IsAnagram(t,s);
+        // string t = "rat";
+        // string s = "car";
+        // bool result = ValidAnagram.IsAnagram(t,s);
+        // Console.WriteLine(result);
+
+        int[] nums = { 0 };
+        int result = MissingNumber.MissingNumber_(nums);
         Console.WriteLine(result);
 
     }

@@ -100,9 +100,14 @@ public class Program
         // long result = CountSubarraysWithMajorityElementII.CountMajoritySubarrays(nums, target);
         // Console.WriteLine(result);
 
-        string pattern = "abba";
-        string s = "dog dog dog dog";
-        bool result = WordPattern.WordPattern_(pattern, s);
+        // string pattern = "abba";
+        // string s = "dog dog dog dog";
+        // bool result = WordPattern.WordPattern_(pattern, s);
+        // Console.WriteLine(result);
+
+        string paragraph = "a.";
+        string[] banned = { " "};
+        string result = MostCommonWord.MostCommonWord_(paragraph, banned);
         Console.WriteLine(result);
 
     }

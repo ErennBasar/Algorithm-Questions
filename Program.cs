@@ -91,8 +91,13 @@ public class Program
         // bool result = ValidAnagram.IsAnagram(t,s);
         // Console.WriteLine(result);
 
-        int[] nums = { 9, 6, 4, 2, 3, 5, 7, 8, 1};
-        int result = MissingNumber.MissingNumber_(nums);
+        // int[] nums = { 9, 6, 4, 2, 3, 5, 7, 8, 1};
+        // int result = MissingNumber.MissingNumber_(nums);
+        // Console.WriteLine(result);
+
+        int[] nums = { 1,2,3 };
+        int target = 4;
+        long result = CountSubarraysWithMajorityElementII.CountMajoritySubarrays(nums, target);
         Console.WriteLine(result);
 
     }

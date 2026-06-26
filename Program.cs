@@ -95,9 +95,14 @@ public class Program
         // int result = MissingNumber.MissingNumber_(nums);
         // Console.WriteLine(result);
 
-        int[] nums = { 1,2,3 };
-        int target = 4;
-        long result = CountSubarraysWithMajorityElementII.CountMajoritySubarrays(nums, target);
+        // int[] nums = { 1,2,3 };
+        // int target = 4;
+        // long result = CountSubarraysWithMajorityElementII.CountMajoritySubarrays(nums, target);
+        // Console.WriteLine(result);
+
+        string pattern = "abba";
+        string s = "dog dog dog dog";
+        bool result = WordPattern.WordPattern_(pattern, s);
         Console.WriteLine(result);
 
     }

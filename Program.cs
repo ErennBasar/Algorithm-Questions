@@ -111,10 +111,17 @@ public class Program
         // Console.WriteLine(result);
         
 
-        int[] nums1 = { 4, 9, 5 };
-        int[] nums2 = { 9, 4, 9, 8, 4 };
-        int[] result = IntersectionofTwoArrays.Intersection(nums1, nums2);
-        Console.WriteLine($"[{string.Join(", ", result)}]");
+        // int[] nums1 = { 4, 9, 5 };
+        // int[] nums2 = { 9, 4, 9, 8, 4 };
+        // int[] result = IntersectionofTwoArrays.Intersection(nums1, nums2);
+        // Console.WriteLine($"[{string.Join(", ", result)}]");
+  
+        // int[] nums1 = { 4,7,9,7,6,7 };
+        // int[] nums2 = { 5,0,0,6,1,6,2,2,4};
+        // int[] result = IntersectionOfTwoArrays_II.Intersect(nums1, nums2);
+        // Console.WriteLine($"[{string.Join(", ", result)}]");
+
+        
 
 
     }

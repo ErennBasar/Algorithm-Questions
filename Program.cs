@@ -126,8 +126,13 @@ public class Program
         // bool result = RansomNote.CanConstruct(ransomNote, magazine);
         // Console.WriteLine(result);
 
-        string s = "loveleetcode";
-        int result = FirstUniqueCharacterInAString.FirstUniqChar(s);
+        // string s = "loveleetcode";
+        // int result = FirstUniqueCharacterInAString.FirstUniqChar(s);
+        // Console.WriteLine(result);
+
+        string s = "abcd";
+        string t = "adbce";
+        char result = FindTheDifference.FindTheDifference_XOR(s, t);
         Console.WriteLine(result);
 
     }

@@ -105,10 +105,17 @@ public class Program
         // bool result = WordPattern.WordPattern_(pattern, s);
         // Console.WriteLine(result);
 
-        string paragraph = "a.";
-        string[] banned = { " "};
-        string result = MostCommonWord.MostCommonWord_(paragraph, banned);
-        Console.WriteLine(result);
+        // string paragraph = "a.";
+        // string[] banned = { " "};
+        // string result = MostCommonWord.MostCommonWord_(paragraph, banned);
+        // Console.WriteLine(result);
+        
+
+        int[] nums1 = { 4, 9, 5 };
+        int[] nums2 = { 9, 4, 9, 8, 4 };
+        int[] result = IntersectionofTwoArrays.Intersection(nums1, nums2);
+        Console.WriteLine($"[{string.Join(", ", result)}]");
+
 
     }
 }

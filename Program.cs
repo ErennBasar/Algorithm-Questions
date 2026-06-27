@@ -121,10 +121,14 @@ public class Program
         // int[] result = IntersectionOfTwoArrays_II.Intersect(nums1, nums2);
         // Console.WriteLine($"[{string.Join(", ", result)}]");
 
-        string ransomNote = "aa";
-        string magazine = "aab";
-        bool result = RansomNote.CanConstruct(ransomNote, magazine);
+        // string ransomNote = "aa";
+        // string magazine = "aab";
+        // bool result = RansomNote.CanConstruct(ransomNote, magazine);
+        // Console.WriteLine(result);
+
+        string s = "loveleetcode";
+        int result = FirstUniqueCharacterInAString.FirstUniqChar(s);
         Console.WriteLine(result);
-        
+
     }
 }

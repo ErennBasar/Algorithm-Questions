@@ -130,10 +130,13 @@ public class Program
         // int result = FirstUniqueCharacterInAString.FirstUniqChar(s);
         // Console.WriteLine(result);
 
-        string s = "abcd";
-        string t = "adbce";
-        char result = FindTheDifference.FindTheDifference_XOR(s, t);
-        Console.WriteLine(result);
+        // string s = "abcd";
+        // string t = "adbce";
+        // char result = FindTheDifference.FindTheDifference_XOR(s, t);
+        // Console.WriteLine(result);
 
+        string s = "Za";
+        int result = LongestPalindrome.LongestPalindrome_(s);
+        Console.WriteLine(result);
     }
 }

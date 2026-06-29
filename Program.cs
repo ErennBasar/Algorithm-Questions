@@ -138,5 +138,10 @@ public class Program
         // string s = "Za";
         // int result = LongestPalindrome.LongestPalindrome_(s);
         // Console.WriteLine(result);
+
+        int[] nums1 = { 4, 1, 2 };
+        int[] nums2 = { 1, 3, 4, 2 };
+        int[] result = NextGreaterElementI.NextGreaterElement(nums1, nums2);
+        Console.WriteLine($"[{string.Join(", ", result)}]");
     }
 }
